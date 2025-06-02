@@ -8,10 +8,19 @@ public class Main {
             -> Maybe some constraint for valid course title length
          */
 
+        /*
+        Udemy Archive Website
+        TODO:
+            -can make category tests
+            -can make forbidden char (title) test
+            -BVA for course title
+            -EQ for course title
+            -Search decision table
+     */
         int courseCounter = 1;
         String keyword = "python";
 
-        DiscUdemyTestBot bot = new DiscUdemyTestBot("https://www.discudemy.com/search");
+        DiscUdemyTestBot bot = new DiscUdemyTestBot("https://www.udemy.com");
         bot.searchByKeyword(keyword);
 
         ArrayList<String> _courseTitles = bot.getCourseTitles();

@@ -9,6 +9,21 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.ArrayList;
 
+/*
+This test bot is used to verify the search functionality on the Udemy website by entering a keyword and checking the returned course titles.
+
+    ! This bot may not work properly at all times due to Cloudflare bot protection used on the official Udemy web application.
+
+    ! For more consistent results, we use DiscUdemyTestBot instead.
+    ! DiscUdemyTestBot works on https://www.discudemy.com/, which is an archive-like version of Udemy.
+
+Common issues:
+    -> Cloudflare blocks the page with a CAPTCHA
+    -> The search bar becomes unusable for automation
+    -> The site blocks the connection after several repeated requests
+ */
+
+
 public class udemyTestBot {
 
     private WebDriver driver;
@@ -39,7 +54,6 @@ public class udemyTestBot {
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver-win64/chromedriver.exe");
 
         ChromeOptions options = new ChromeOptions();
-
 
 
         options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});

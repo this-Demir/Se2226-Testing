@@ -69,7 +69,7 @@ public class TC_BVA_S1 {
         bot.searchByKeyword(INVALID_KEYWORD_EMPTY);
         List<String> titles = bot.getCourseTitles();
 
-        assertTrue(titles.isEmpty(), "U1: Expected no results for empty keyword.");
+       assertTrue(titles.isEmpty(), "U1: Expected no results for empty keyword.");
     }
 
     // U2 – Invalid input (length = 101)

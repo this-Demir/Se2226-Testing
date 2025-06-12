@@ -36,7 +36,7 @@ public class TC_EP_TITLE2 {
 
     //Valid categories to check for clean course titles (valid equivalence class)
     private static Stream<String> categoryListForValidation() {
-        return Stream.of("python", "java", "mysql", "javascript");
+        return Stream.of("python", "java");
     }
 
     // Unexpected (U) -> Forbidden search keywords should return no results

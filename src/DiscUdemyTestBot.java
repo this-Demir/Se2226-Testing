@@ -55,7 +55,7 @@ public class DiscUdemyTestBot {
         actionProvider = new Actions(driver);
     }
 
-    private void connect() {
+    public void connect() {
         driver.get(URL);
     }
 
@@ -88,6 +88,19 @@ public class DiscUdemyTestBot {
         }
     }
 
+    public void clickCategoryByName(String categoryName) {
+        try {
+            WebElement categoryButton = driver.findElement(
+                    By.xpath("//a[contains(@class,'catbtn') and contains(., '" + categoryName + "')]")
+            );
+            categoryButton.click();
+            waitSeconds(2);
+        } catch (Exception e) {
+            System.out.println("Category '" + categoryName + "' not found or not clickable. " + e.getMessage());
+        }
+    }
+
+
     public void storeData() {
         courseTitles.clear();
 
@@ -110,8 +123,15 @@ public class DiscUdemyTestBot {
         }
     }
 
+    public void waitSeconds(int sec) {
+        actionProvider.pause(Duration.ofSeconds(sec)).build().perform();
+    }
 
-    private void quit() {
+    public WebDriver getDriver() {
+        return this.driver;
+    }
+
+    public void quit() {
         try {
             actionProvider.pause(Duration.ofSeconds(TIMEOUT)).build().perform();
             driver.quit();

@@ -1,3 +1,4 @@
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -12,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
     Tester: Demir Demirdöğen
  */
 
-public class SearchBotTest_TC_EP_S1 {
+public class TC_EP_S1 {
 
     private static final String URL = "https://www.discudemy.com/search";
 
@@ -22,7 +23,7 @@ public class SearchBotTest_TC_EP_S1 {
     private static final String INVALID_KEYWORD_EMPTY = "";                              // U1
     private static final String INVALID_KEYWORD_SPECIAL = "@#$";                         // U2
     private static final String INVALID_KEYWORD_SHORT = "x";                             // U3
-    private static final String INVALID_KEYWORD_LONG = "a".repeat(50);            // U4
+    private static final String INVALID_KEYWORD_LONG = "a".repeat(50);             // U4
     private static final String INVALID_KEYWORD_SPAM = "buy now click here free course"; // U5
 
     private DiscUdemyTestBot bot;

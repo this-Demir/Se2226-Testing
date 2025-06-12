@@ -13,7 +13,7 @@ This document tracks all progress and test development activities related to the
 - Created constants for test inputs
 - Created `DiscUdemyTestBot` with basic Selenium automation flow
 - Chose `JUnit 5` + `@Test` structure for isolated test methods
-- Defined `SearchBotTest_TC_EP_S1` as test class name
+- Defined `Automation_Tests.TC_EP_S1` as test class name
 
 ---
 
@@ -29,7 +29,7 @@ This document tracks all progress and test development activities related to the
 - Agreed to use named constants like `VALID_KEYWORD_1`, `INVALID_KEYWORD_SPECIAL`, etc. for all inputs.
 - Ensured clean, readable method names and descriptive `@DisplayName` annotations.
 
-### Implemented `SearchBotTest_TC_EP_S1`
+### Implemented `Automation_Tests.TC_EP_S1`
 - Created a full-featured JUnit test class that covers:
     - E1: Valid common keyword (`"python"`)
     - E2: Valid multi-word keyword (`"web development"`)
@@ -44,7 +44,7 @@ This document tracks all progress and test development activities related to the
     - Includes a comment explaining:  
       `// Test fails if keyword is not in returned result`
 - Bot is instantiated in `@BeforeEach` to ensure test isolation.
-- Final class name: `SearchBotTest_TC_EP_S1`.
+- Final class name: `Automation_Tests.TC_EP_S1`.
 
 
 

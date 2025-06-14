@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
     Test Feature: Category
     Test Description: User navigates between categories
     Test Technique: Use Case Testing
-    Tester: Demir Demirdöğen
+    Tester: Demir Demirdöğen / Yağmur Pazı
 */
 public class TC_UC_CAT1 {      // Category Navigation Test
 

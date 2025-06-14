@@ -11,6 +11,19 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * This is a Selenium-based bot for interacting with the DiscUdemy platform (https://www.discudemy.com).
+ *
+ * Key functionalities:
+ *      1. searchByKeyword(): Searches for courses by a given keyword and stores the course titles.
+ *      2. clickCategoryByName(): Clicks a specific category on the site.
+ *      3. storeData(): Captures course titles from the search results.
+ *      4. quit(): Closes the browser after completion.
+ *
+ * The bot uses ChromeDriver, WebDriverWait, and Actions to interact with the page and extract course data.
+ *     ---> A working ChromeDriver setup at "drivers/chromedriver-win64/chromedriver.exe".
+ */
+
 public class DiscUdemyTestBot {
 
     private WebDriver driver;

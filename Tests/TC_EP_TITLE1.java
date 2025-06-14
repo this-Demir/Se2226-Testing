@@ -51,15 +51,17 @@ public class TC_EP_TITLE1 {
         bot.storeData();
         List<String> resultTitles = bot.getCourseTitles();
 
-        //Expected class check: all valid characters
-        boolean allExpectedValid = resultTitles.stream().allMatch(title ->
-                title.matches("[a-zA-Z0-9\\s:\\-.,()'’]+")
-        );
+        String allowedPattern = "[a-zA-Z0-9\\s:\\-.,()'’]+";
 
-        //Fail if any course title contains forbidden characters
-        assertTrue(allExpectedValid,
-                "Unexpected character(s) found in course titles.\nTitles:\n" + resultTitles);
+        List<String> invalidTitles = resultTitles.stream()
+                .filter(title -> !title.matches(allowedPattern))
+                .toList();
+
+
+        assertTrue(invalidTitles.isEmpty(),
+                "Unexpected character(s) found in course titles.\nInvalid Titles:\n" + String.join("\n", invalidTitles));
 
         bot.quit();
     }
+
 }

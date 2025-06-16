@@ -14,11 +14,15 @@ import java.util.List;
 */
 
 
+// NOTE: This test case covers the entire purchase flow from login through checkout.
 public class TC_UC_PF1 {
+    //PF ---> Payment Flow
+
+    // PASSED WIWTHOUT ANY ISSUE OR PROBLEM
+    // 1 HUGE TEST IS PASSED
+
 
     private SauceDemoTestBot bot;
-
-    // NOTE: This test case covers the entire purchase flow from login through checkout.
 
     @BeforeEach
     void setUp() {
@@ -71,7 +75,8 @@ public class TC_UC_PF1 {
         assertTrue(bot.getTax().startsWith("$"), "Tax must be shown");
         assertTrue(bot.getTotal().startsWith("$"), "Total must be shown");
 
-        // 9. Final validate: total = item total + tax
+        // 9. Final validate:
+        // Focus ->  total = item total + tax
         assertTrue(bot.verifyTotal(), "Displayed total should equal item total plus tax");
     }
 }

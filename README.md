@@ -1,6 +1,17 @@
 # SE 2226 Term Project – Udemy Web Application Test Plan
 
-## 📌 Project Overview
+
+## Team Members
+
+
+- Demir Demirdöğen – Team Lead, Selenium Developer
+- Yağmur Pazı – Documentation, JUnit Automation
+- Batuhan Salcan – UI Tester, Selenium Engineer
+- Egemen Üner – Test Case Developer, Presenter
+- Efe Bırık – Reporting Analyst, Test Data Designer
+
+
+##  Project Overview
 
 This repository contains the complete test documentation and assets for the SE 2226 Software Quality Assurance & Testing term project. The project involves designing and executing black-box tests on the Udemy web platform, applying formal test design techniques and automation tools such as Selenium and JUnit.
 
@@ -8,7 +19,7 @@ The testing focuses on validating core user interactions including login/OTP ver
 
 ---
 
-## 📚 Contents
+##  Contents
 
 - Test Plan.pdf: Full IEEE 29119-3 based test plan including scope, techniques, deliverables, staffing, and scheduling.
 - Test Case Table.docx: Detailed table of 51 test cases with applied test technique and execution tool (Manual, Selenium, JUnit).
@@ -18,7 +29,7 @@ The testing focuses on validating core user interactions including login/OTP ver
 
 ---
 
-## 🔧 Tools & Technologies
+##  Tools & Technologies
 
 | Tool       | Purpose                          |
 |------------|----------------------------------|
@@ -30,21 +41,17 @@ The testing focuses on validating core user interactions including login/OTP ver
 
 ---
 
-## ✅ Test Types Applied
+## Test Types Applied
 
-- **Functional Testing**
-- **Form Input Testing**
-- **UI Testing**
 - **Use Case Testing**
 - **Equivalence Partitioning**
 - **Boundary Value Analysis**
 - **Decision Table Testing**
-- **Exception & Alternate Flow Scenarios**
-- *(Optional)* Performance Testing via timing assertions
+- **Performance Testing**
 
 ---
 
-## 📌 Key Use Cases Covered
+##  Key Use Cases Covered
 
 - OTP-based login flow
 - Search bar and keyword validation
@@ -55,27 +62,16 @@ The testing focuses on validating core user interactions including login/OTP ver
 
 ---
 
-## 👥 Team Members
+##  Execution Status
 
-
-- Demir Demirdöğen – Team Lead, Selenium Developer
-- Yağmur Pazı – Documentation, JUnit Automation
-- Batuhan Salcan – UI Tester, Selenium Engineer
-- Egemen Üner – Test Case Developer, Presenter
-- Efe Bırık – Reporting Analyst, Test Data Designer
+- Planning and test design completed  
+- Selenium and JUnit test scripts implemented   
+- Manual and automated test cases executed  
+- Test Completion Report to be finalized before presentation
 
 ---
 
-## 🧪 Execution Status
-
-✔️ Planning and test design completed  
-✔️ Selenium and JUnit test scripts implemented  
-✔️ Manual and automated test cases executed  
-📌 Test Completion Report to be finalized before presentation
-
----
-
-## 📅 Project Timeline
+##  Project Timeline
 
 - Test Design: May 19–24
 - Development & Automation: May 24–30
@@ -84,6 +80,6 @@ The testing focuses on validating core user interactions including login/OTP ver
 
 ---
 
-## 📄 Licensing & Notes
+##  Licensing & Notes
 
 This project is developed for academic purposes only, as part of the SE 2226 course. No source code from Udemy is accessed or modified. All tests are performed externally through UI automation and black-box analysis.

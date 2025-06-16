@@ -15,8 +15,11 @@ import java.util.List;
 
 public class TC_DT_CHECK3 {
 
-    //ONLY RULE-1 WILL PROCEED  PAYMENT
+    //  ONLY RULE-1 WILL PROCEED  PAYMENT
     // RULE-2,3,4,5,6,7,8 WILL STUCK AT SOME POINT
+
+    //  3 TEST IS PASSED
+    //  4 TEST IS FAILED --> 4 OF THEM IS NOT FEASIBLE SOMEHOW ( not sure )
 
     private SauceDemoTestBot bot;
 

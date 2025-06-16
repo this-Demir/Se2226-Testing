@@ -17,6 +17,11 @@ public class TC_EP_TITLE1 {
     private DiscUdemyTestBot bot;
     private static final String URL = "https://www.discudemy.com/search";
 
+    // 8/10
+    // 8  TESTS IS PASSED
+    // 2  TEST IS FAILED (don't know why result seems true to me)
+
+
     // E
     private static final List<String> expectedTitles = Arrays.asList(
             // Expected Inputs

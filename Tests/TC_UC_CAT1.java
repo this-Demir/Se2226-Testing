@@ -17,6 +17,8 @@ import static org.junit.jupiter.api.Assertions.*;
 */
 public class TC_UC_CAT1 {      // Category Navigation Test
 
+    // 6 test is passed
+    // Repeated Test
 
     private DiscUdemyTestBot bot;
     private static final String CATEGORY_URL = "https://www.discudemy.com/category";
@@ -32,7 +34,9 @@ public class TC_UC_CAT1 {      // Category Navigation Test
                 "python",
                 "java",
                 "javascript",
-                "csharp"
+                "csharp",
+                "html",
+                "css"
         );
     }
 

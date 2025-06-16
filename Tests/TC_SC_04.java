@@ -16,6 +16,11 @@ import java.util.List;
 
 
 public class TC_SC_04 {
+
+    // 2 TEST PASSED
+    // 3 TEST FAILED
+
+
     /*
     Boundary Value Classes:
       B1 – Cart has 0 courses before adding (lower boundary)

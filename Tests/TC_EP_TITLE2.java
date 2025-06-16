@@ -19,6 +19,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class TC_EP_TITLE2 {
 
+    // ALL  6 test cases pass
+    // This is repeated test so we run test-1 for all 6 forbiddenSearchKeywords
+
     private DiscUdemyTestBot bot;
     private static final String SEARCH_URL = "https://www.discudemy.com/search";
     private static final String CATEGORY_URL = "https://www.discudemy.com/category";

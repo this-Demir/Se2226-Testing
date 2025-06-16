@@ -12,7 +12,7 @@ import java.util.List;
 
 /*
  * Coded by Demir Demirdöğen
- * Sample Code: Moodle/Se2226/Week7-Lab/Bot.java (Atabarış Hoca's Bot Code)
+ * Sample Code: Moodle/Se2226/Week7-Lab/Bot.java (Atabarış Hoca's Bot Code in the moodle)
  *
  *
  * This class is a Selenium-based bot designed for automating and verifying the purchase flow of a shopping cart on a sample e-commerce website.

@@ -14,6 +14,11 @@ import java.util.NoSuchElementException;
 */
 public class TC_SC_01 {
 
+    // SC-4 AND SC-5 IS NOT FEASIBLE TO TEST
+    // SC-1 IS PASSED
+    // SC-2 & SC-3 FAILED
+
+    // 2/3 TEST ARE PASSED & 2 TEST IS NOT FEASIBLE
     private SauceDemoTestBot bot;
 
     @BeforeEach

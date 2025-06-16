@@ -13,6 +13,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class TC_EP_CHECK2 {
 
+    // 2 TEST PASSED
+    // 1 TEST FAILED -> U1
+
     /*
         Equivalence Classes:
           E1 – total = item total + tax
@@ -21,6 +24,8 @@ public class TC_EP_CHECK2 {
      */
     private SauceDemoTestBot bot;
 
+    // TODO: tomorrow run again
+
     @BeforeEach
     void setUp() {
         bot = new SauceDemoTestBot("https://www.saucedemo.com");
@@ -28,7 +33,7 @@ public class TC_EP_CHECK2 {
     }
 
     @AfterEach
-    void tearDown() {
+    void exit() {
         bot.quit();
     }
 
@@ -79,7 +84,6 @@ public class TC_EP_CHECK2 {
         double itemTotal = 0.00;
         double tax = 0.00;
         double finalTotal = 10.00; // Invalid charge
-        // TODO: tomorrow run again
 
         //charge error is raised
         assertTrue(finalTotal > (itemTotal + tax), "Unexpected charge should raise an error");

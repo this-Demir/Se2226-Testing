@@ -15,6 +15,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class TC_EP_S1 {
 
+    // 7 TEST (ALL) PASSED
+
     private static final String URL = "https://www.discudemy.com/search";
 
     private static final String VALID_KEYWORD_1 = "python";                 // E1

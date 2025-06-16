@@ -13,6 +13,8 @@ import java.util.List;
 */
 
 public class TC_EP_CHECK1 {
+
+    // All Test are passed 3/3
     /*
       Equivalence Classes:
           E1 – Cart and Checkout items match exactly
@@ -29,7 +31,7 @@ public class TC_EP_CHECK1 {
     }
 
     @AfterEach
-    void tearDown() {
+    void exit() {
         bot.quit();
     }
 

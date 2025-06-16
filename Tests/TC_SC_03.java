@@ -28,6 +28,11 @@ public class TC_SC_03 {
 
     */
 
+
+    // 3 TEST PASSED
+    // 2 TEST FAILED
+    // 3 TEST CASES IS NOT TESTABLE IN THIS APP
+
     private SauceDemoTestBot bot;
 
     @BeforeEach

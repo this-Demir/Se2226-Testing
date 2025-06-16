@@ -7,7 +7,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 /*
-    Test-No: 10 (new)
+    Test-No: 10
     Test ID: TC-BVA-S1
     Test Feature: Search Bar
     Test Description: Keyword length tested at boundary values [1, 100] – valid; 0 and 101 – invalid
@@ -16,6 +16,9 @@ import static org.junit.jupiter.api.Assertions.*;
 */
 
 public class TC_BVA_S1 {
+
+    // Note that result are dynamically change due to discudemy web app behavior.
+    //  4 test done in this class 3 of them is pass. Failed ->E1: lenght = 100 (VALID_KEYWORD_MAX)
 
     private static final String URL = "https://www.discudemy.com/search";
 

@@ -16,6 +16,10 @@ import java.util.List;
 
 public class TC_SC_02 {
 
+    // 4/4 %100
+    // 4 TEST PASSED
+    // 0 FAIL
+
     private SauceDemoTestBot bot;
 
     @BeforeEach

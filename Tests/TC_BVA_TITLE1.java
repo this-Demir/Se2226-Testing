@@ -22,7 +22,8 @@ public class TC_BVA_TITLE1 {
 
     // E1 – Valid: Lower and upper bounds
     private static final String TITLE_E1_MIN = "J";  // 1 character
-    private static final String TITLE_E1_MAX = "Java Programming Language Complete Beginner to Advanced Full Stack Masterclass With Real Projects"; // 100 chars
+    private static final String TITLE_E1_MAX = "Java Programming Language Complete Beginner " +
+                                                "to Advanced Full Stack Masterclass With Real Projects"; // 100 chars
 
     // U2 – Invalid: 101 characters
     private static final String TITLE_U2 = TITLE_E1_MAX + "X"; // 101 chars

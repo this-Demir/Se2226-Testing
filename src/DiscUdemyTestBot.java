@@ -13,6 +13,7 @@ import java.util.List;
 
 /*
  * This is a Selenium-based bot for interacting with the DiscUdemy platform (https://www.discudemy.com).
+ * Sample Code: Moodle/Se2226/Week7-Lab/Bot.java (Atabarış Hoca's Bot Code in the moodle)
  *
  * Key functionalities:
  *      1. searchByKeyword(): Searches for courses by a given keyword and stores the course titles.

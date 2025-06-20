@@ -12,6 +12,8 @@ import java.util.ArrayList;
 /*
 This test bot is used to verify the search functionality on the Udemy website by entering a keyword and checking the returned course titles.
 
+    Sample Code: Moodle/Se2226/Week7-Lab/Bot.java (Atabarış Hoca's Bot Code in the moodle)
+
     ! This bot may not work properly at all times due to Cloudflare bot protection used on the official Udemy web application.
 
     ! For more consistent results, we use DiscUdemyTestBot instead.

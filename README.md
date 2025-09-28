@@ -3,11 +3,11 @@
 
 ## Team Members:
 
-- Demir Demirdöğen -23070006036
-- Yağmur Pazı - 23070006066
-- Batuhan Salcan - 22070006040
-- Egemen Üner - 23070006051
-- Efe Bırık - 22070006075
+- Demir Demirdöğen 
+- Yağmur Pazı 
+- Batuhan Salcan 
+- Egemen Üner
+- Efe Bırık
 
 ---
 

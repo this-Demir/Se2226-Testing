@@ -18,7 +18,7 @@ We do not look at the code inside the website. Instead, we test it from the outs
 The tests are written using tools like Selenium and JUnit. These tools help us run the tests automatically.
 This project shows how testing can help improve the quality of a website by making sure it works properly and gives a good user experience.
 
-
+***You can check "docs" file for the documentation***
 
 ---
 
